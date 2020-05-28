@@ -7,3 +7,5 @@ Stage 2 -> Perform Operation based on 4bit OpCode
 Stage 3 -> Write Result back to Register Bank  
 Stage 4 -> Write Result to Memeory  
 
+GTKWave Output
+![FourStagePipelining](FourStagePipelining.png)
