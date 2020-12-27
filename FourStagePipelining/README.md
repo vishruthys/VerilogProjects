@@ -18,5 +18,7 @@ To simulate with verilator
 
 3] ```make -f pipeline.mk```
 
-4] ```gtkwave trace.vcd```
+4] ```./pipeline```
+
+5] ```gtkwave trace.vcd```
 
