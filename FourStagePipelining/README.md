@@ -9,3 +9,14 @@ Stage 4 -> Write Result to Memeory
 
 GTKWave Output
 ![FourStagePipelining](FourStagePipelining.png)
+
+To simulate with verilator
+
+1] ```verilator -Wall --trace -cc pipeline.v --prefix pipeline --exe tb.cpp```
+
+2] ```cd obj_dir```
+
+3] ```make -f pipeline.mk```
+
+4] ```gtkwave trace.vcd```
+
